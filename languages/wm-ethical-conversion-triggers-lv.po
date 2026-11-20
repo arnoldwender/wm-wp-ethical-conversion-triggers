@@ -1,0 +1,136 @@
+# Translation of wm-ethical-conversion-triggers in lv
+# Copyright (C) 2026 Arnold Wender
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: wm-ethical-conversion-triggers 1.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wm-ethical-"
+"conversion-triggers\n"
+"POT-Creation-Date: 2026-11-19T12:13:16+00:00\n"
+"PO-Revision-Date: 2026-11-16 23:30+0100\n"
+"Last-Translator: WM Suite <https://github.com/arnoldwender/wm-wp-ethical-conversion-triggers/issues>\n"
+"Language-Team: WM Suite <https://github.com/arnoldwender/wm-wp-ethical-conversion-triggers/issues>\n"
+"Language: lv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
+"2);\n"
+"X-Generator: WM Suite i18n Compiler 2026\n"
+"X-Domain: wm-ethical-conversion-triggers\n"
+
+#. Plugin Name of the plugin
+#: wm-ethical-conversion-triggers.php includes/class-integrations.php:77
+#: includes/class-settings.php:66 includes/class-settings.php:94
+msgid "WM Ethical Conversion Triggers"
+msgstr "WM Ētiskie Konversijas Trigeri"
+
+#. Plugin URI of the plugin
+#: wm-ethical-conversion-triggers.php
+msgid ""
+"https://arnoldwender.com/wordpress-plugins/wm-ethical-conversion-triggers/"
+msgstr ""
+
+#. Description of the plugin
+#: wm-ethical-conversion-triggers.php
+msgid ""
+"Order and low-stock notices on WooCommerce product pages, shown only from "
+"real paid orders and managed stock."
+msgstr ""
+"Pasūtījumu un zema krājuma paziņojumi WooCommerce produktu lapās tikai no "
+"reāli apmaksātiem pasūtījumiem un pārvaldīta krājuma."
+
+#. Author of the plugin
+#: wm-ethical-conversion-triggers.php
+msgid "Arnold Wender"
+msgstr "Arnold Wender"
+
+#. Author URI of the plugin
+#: wm-ethical-conversion-triggers.php
+msgid "https://www.arnoldwender.com"
+msgstr "https://www.arnoldwender.com"
+
+#. translators: %d: paid orders containing this product in the last 7 days
+#: includes/class-frontend.php:101
+#, php-format
+msgid "%d Bestellung dieses Artikels in den letzten 7 Tagen."
+msgid_plural "%d Bestellungen dieses Artikels in den letzten 7 Tagen."
+msgstr[0] "%d šīs preces pasūtījums pēdējo 7 dienu laikā."
+msgstr[1] "%d šīs preces pasūtījumi pēdējo 7 dienu laikā."
+msgstr[2] "%d šīs preces pasūtījumi pēdējo 7 dienu laikā."
+
+#. translators: %d: units left in WooCommerce-managed stock (1 to 5)
+#: includes/class-frontend.php:108
+#, php-format
+msgid "Nur noch %d Stück auf Lager."
+msgid_plural "Nur noch %d Stück auf Lager."
+msgstr[0] "Noliktavā atlikušais skaits: %d."
+msgstr[1] "Noliktavā atlikušais skaits: %d."
+msgstr[2] "Noliktavā atlikušais skaits: %d."
+
+#: includes/class-integrations.php:122
+msgid "Ethical Conversion Trigger"
+msgstr "Ētiskais konversijas trigeris"
+
+#: includes/class-integrations.php:126
+msgid "Verified 7-day paid orders and managed low-stock notice."
+msgstr ""
+"Pārbaudīts pēdējo 7 dienu apmaksāto pasūtījumu un zema krājuma paziņojums."
+
+#: includes/class-integrations.php:130
+msgid "Notice field"
+msgstr "Paziņojuma lauks"
+
+#: includes/class-integrations.php:135
+msgid "Combined verified notices"
+msgstr "Apvienoti pārbaudītie paziņojumi"
+
+#: includes/class-integrations.php:139
+msgid "Verified 7-day orders only"
+msgstr "Tikai pārbaudīti 7 dienu pasūtījumi"
+
+#: includes/class-integrations.php:143
+msgid "Verified low stock only"
+msgstr "Tikai pārbaudīts zems krājums"
+
+#: includes/class-plugin.php:77
+msgid ""
+"WM Ethical Conversion Triggers benötigt WooCommerce. Ohne WooCommerce zeigt "
+"das Plugin nichts an."
+msgstr ""
+"WM Ethical Conversion Triggers darbībai nepieciešams WooCommerce. Bez "
+"WooCommerce spraudnis neko nerāda."
+
+#: includes/class-settings.php:38
+msgid "Data & Uninstall"
+msgstr "Dati un atinstalēšana"
+
+#: includes/class-settings.php:45
+msgid "Delete data on uninstall"
+msgstr "Dzēst datus atinstalēšanas laikā"
+
+#: includes/class-settings.php:67
+msgid "Ethical Triggers"
+msgstr "Ētiskie trigeri"
+
+#: includes/class-settings.php:81
+msgid ""
+"Delete plugin options and cached order-count transients when the plugin is "
+"uninstalled."
+msgstr ""
+"Atinstalējot spraudni, dzēst tā opcijas un kešatmiņā saglabātos pasūtījumu "
+"skaita datus."
+
+#: includes/class-settings.php:84
+msgid ""
+"Disabled by default so reinstalling or updating manually keeps existing "
+"settings."
+msgstr ""
+"Pēc noklusējuma atspējots, lai atkārtota instalēšana vai manuāla "
+"atjaunināšana saglabātu esošos iestatījumus."
+
+#: wm-ethical-conversion-triggers.php:59
+msgid "WM Ethical Conversion Triggers benötigt PHP 8.0 oder neuer."
+msgstr ""
+"WM Ethical Conversion Triggers nepieciešama PHP 8.0 vai jaunāka versija."
+

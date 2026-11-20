@@ -1,0 +1,35 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-11-19T09:56:00Z",
+    "component": {
+      "type": "application",
+      "name": "wm-ethical-conversion-triggers",
+      "version": "1.2.0",
+      "description": "Order and low-stock notices on WooCommerce product pages, shown only from real paid orders and managed stock.",
+      "supplier": {
+        "name": "Arnold Wender",
+        "url": [
+          "https://arnoldwender.com"
+        ]
+      },
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-2.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:wordpress/wm-ethical-conversion-triggers@1.2.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "a8231c71eca551ae7ab4ec5beef5c55b0d436d39108df44586f0412193fb3e02"
+        }
+      ]
+    }
+  },
+  "components": []
+}

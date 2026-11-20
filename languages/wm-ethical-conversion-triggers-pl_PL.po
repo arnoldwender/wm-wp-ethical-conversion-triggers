@@ -1,0 +1,137 @@
+# Translation of wm-ethical-conversion-triggers in pl_PL
+# Copyright (C) 2026 Arnold Wender
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: wm-ethical-conversion-triggers 1.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wm-ethical-"
+"conversion-triggers\n"
+"POT-Creation-Date: 2026-11-19T12:13:16+00:00\n"
+"PO-Revision-Date: 2026-11-16 23:30+0100\n"
+"Last-Translator: WM Suite <https://github.com/arnoldwender/wm-wp-ethical-conversion-triggers/issues>\n"
+"Language-Team: WM Suite <https://github.com/arnoldwender/wm-wp-ethical-conversion-triggers/issues>\n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 "
+"|| n%100>14) ? 1 : 2);\n"
+"X-Generator: WM Suite i18n Compiler 2026\n"
+"X-Domain: wm-ethical-conversion-triggers\n"
+
+#. Plugin Name of the plugin
+#: wm-ethical-conversion-triggers.php includes/class-integrations.php:77
+#: includes/class-settings.php:66 includes/class-settings.php:94
+msgid "WM Ethical Conversion Triggers"
+msgstr "WM Etyczne Wyzwalacze Konwersji"
+
+#. Plugin URI of the plugin
+#: wm-ethical-conversion-triggers.php
+msgid ""
+"https://arnoldwender.com/wordpress-plugins/wm-ethical-conversion-triggers/"
+msgstr ""
+
+#. Description of the plugin
+#: wm-ethical-conversion-triggers.php
+msgid ""
+"Order and low-stock notices on WooCommerce product pages, shown only from "
+"real paid orders and managed stock."
+msgstr ""
+"Komunikaty o zamówieniach i niskim stanie magazynowym na stronach produktów "
+"WooCommerce, wyświetlane wyłącznie na podstawie rzeczywistych opłaconych "
+"zamówień i zarządzanego magazynu."
+
+#. Author of the plugin
+#: wm-ethical-conversion-triggers.php
+msgid "Arnold Wender"
+msgstr "Arnold Wender"
+
+#. Author URI of the plugin
+#: wm-ethical-conversion-triggers.php
+msgid "https://www.arnoldwender.com"
+msgstr "https://www.arnoldwender.com"
+
+#. translators: %d: paid orders containing this product in the last 7 days
+#: includes/class-frontend.php:101
+#, php-format
+msgid "%d Bestellung dieses Artikels in den letzten 7 Tagen."
+msgid_plural "%d Bestellungen dieses Artikels in den letzten 7 Tagen."
+msgstr[0] "%d zamówienie tego produktu w ciągu ostatnich 7 dni."
+msgstr[1] "%d zamówienia tego produktu w ciągu ostatnich 7 dni."
+msgstr[2] "%d zamówienia tego produktu w ciągu ostatnich 7 dni."
+
+#. translators: %d: units left in WooCommerce-managed stock (1 to 5)
+#: includes/class-frontend.php:108
+#, php-format
+msgid "Nur noch %d Stück auf Lager."
+msgid_plural "Nur noch %d Stück auf Lager."
+msgstr[0] "W magazynie pozostało tylko: %d szt."
+msgstr[1] "W magazynie pozostało tylko: %d szt."
+msgstr[2] "W magazynie pozostało tylko: %d szt."
+
+#: includes/class-integrations.php:122
+msgid "Ethical Conversion Trigger"
+msgstr "Etyczny wyzwalacz konwersji"
+
+#: includes/class-integrations.php:126
+msgid "Verified 7-day paid orders and managed low-stock notice."
+msgstr ""
+"Zweryfikowany komunikat o opłaconych zamówieniach z 7 dni i zarządzanym "
+"niskim stanie magazynowym."
+
+#: includes/class-integrations.php:130
+msgid "Notice field"
+msgstr "Pole komunikatu"
+
+#: includes/class-integrations.php:135
+msgid "Combined verified notices"
+msgstr "Połączone zweryfikowane komunikaty"
+
+#: includes/class-integrations.php:139
+msgid "Verified 7-day orders only"
+msgstr "Tylko zweryfikowane zamówienia z 7 dni"
+
+#: includes/class-integrations.php:143
+msgid "Verified low stock only"
+msgstr "Tylko zweryfikowany niski stan magazynowy"
+
+#: includes/class-plugin.php:77
+msgid ""
+"WM Ethical Conversion Triggers benötigt WooCommerce. Ohne WooCommerce zeigt "
+"das Plugin nichts an."
+msgstr ""
+"Wtyczka WM Ethical Conversion Triggers wymaga WooCommerce. Bez WooCommerce "
+"wtyczka nic nie wyświetla."
+
+#: includes/class-settings.php:38
+msgid "Data & Uninstall"
+msgstr "Dane i deinstalacja"
+
+#: includes/class-settings.php:45
+msgid "Delete data on uninstall"
+msgstr "Usuń dane podczas odinstalowywania"
+
+#: includes/class-settings.php:67
+msgid "Ethical Triggers"
+msgstr "Etyczne wyzwalacze"
+
+#: includes/class-settings.php:81
+msgid ""
+"Delete plugin options and cached order-count transients when the plugin is "
+"uninstalled."
+msgstr ""
+"Usuń opcje wtyczki i zapisane w pamięci podręcznej liczniki zamówień podczas "
+"odinstalowywania wtyczki."
+
+#: includes/class-settings.php:84
+msgid ""
+"Disabled by default so reinstalling or updating manually keeps existing "
+"settings."
+msgstr ""
+"Domyślnie wyłączone, aby ponowna instalacja lub ręczna aktualizacja "
+"zachowała dotychczasowe ustawienia."
+
+#: wm-ethical-conversion-triggers.php:59
+msgid "WM Ethical Conversion Triggers benötigt PHP 8.0 oder neuer."
+msgstr "WM Ethical Conversion Triggers wymaga PHP 8.0 lub nowszego."
+

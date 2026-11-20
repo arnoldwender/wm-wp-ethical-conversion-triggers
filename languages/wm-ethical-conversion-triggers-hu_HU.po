@@ -1,0 +1,133 @@
+# Translation of wm-ethical-conversion-triggers in hu_HU
+# Copyright (C) 2026 Arnold Wender
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: wm-ethical-conversion-triggers 1.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wm-ethical-"
+"conversion-triggers\n"
+"POT-Creation-Date: 2026-11-19T12:13:16+00:00\n"
+"PO-Revision-Date: 2026-11-16 23:30+0100\n"
+"Last-Translator: WM Suite <https://github.com/arnoldwender/wm-wp-ethical-conversion-triggers/issues>\n"
+"Language-Team: WM Suite <https://github.com/arnoldwender/wm-wp-ethical-conversion-triggers/issues>\n"
+"Language: hu_HU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: WM Suite i18n Compiler 2026\n"
+"X-Domain: wm-ethical-conversion-triggers\n"
+
+#. Plugin Name of the plugin
+#: wm-ethical-conversion-triggers.php includes/class-integrations.php:77
+#: includes/class-settings.php:66 includes/class-settings.php:94
+msgid "WM Ethical Conversion Triggers"
+msgstr "WM Etikus Konverziós Jelzések"
+
+#. Plugin URI of the plugin
+#: wm-ethical-conversion-triggers.php
+msgid ""
+"https://arnoldwender.com/wordpress-plugins/wm-ethical-conversion-triggers/"
+msgstr ""
+
+#. Description of the plugin
+#: wm-ethical-conversion-triggers.php
+msgid ""
+"Order and low-stock notices on WooCommerce product pages, shown only from "
+"real paid orders and managed stock."
+msgstr ""
+"Rendelési és alacsony készletjelzések a WooCommerce termékoldalakon, "
+"kizárólag valós kifizetett rendelések és kezelt készlet alapján."
+
+#. Author of the plugin
+#: wm-ethical-conversion-triggers.php
+msgid "Arnold Wender"
+msgstr "Arnold Wender"
+
+#. Author URI of the plugin
+#: wm-ethical-conversion-triggers.php
+msgid "https://www.arnoldwender.com"
+msgstr "https://www.arnoldwender.com"
+
+#. translators: %d: paid orders containing this product in the last 7 days
+#: includes/class-frontend.php:101
+#, php-format
+msgid "%d Bestellung dieses Artikels in den letzten 7 Tagen."
+msgid_plural "%d Bestellungen dieses Artikels in den letzten 7 Tagen."
+msgstr[0] "%d rendelés erre a termékre az elmúlt 7 napban."
+msgstr[1] "%d rendelés erre a termékre az elmúlt 7 napban."
+
+#. translators: %d: units left in WooCommerce-managed stock (1 to 5)
+#: includes/class-frontend.php:108
+#, php-format
+msgid "Nur noch %d Stück auf Lager."
+msgid_plural "Nur noch %d Stück auf Lager."
+msgstr[0] "Már csak %d darab van raktáron."
+msgstr[1] "Már csak %d darab van raktáron."
+
+#: includes/class-integrations.php:122
+msgid "Ethical Conversion Trigger"
+msgstr "Etikus konverziós jelzés"
+
+#: includes/class-integrations.php:126
+msgid "Verified 7-day paid orders and managed low-stock notice."
+msgstr ""
+"Hitelesített 7 napos kifizetett rendelések és kezelt alacsony készlet "
+"jelzése."
+
+#: includes/class-integrations.php:130
+msgid "Notice field"
+msgstr "Jelzésmező"
+
+#: includes/class-integrations.php:135
+msgid "Combined verified notices"
+msgstr "Összevont hitelesített jelzések"
+
+#: includes/class-integrations.php:139
+msgid "Verified 7-day orders only"
+msgstr "Csak a hitelesített 7 napos rendelések"
+
+#: includes/class-integrations.php:143
+msgid "Verified low stock only"
+msgstr "Csak a hitelesített alacsony készlet"
+
+#: includes/class-plugin.php:77
+msgid ""
+"WM Ethical Conversion Triggers benötigt WooCommerce. Ohne WooCommerce zeigt "
+"das Plugin nichts an."
+msgstr ""
+"A WM Ethical Conversion Triggers működéséhez WooCommerce szükséges. "
+"WooCommerce nélkül a bővítmény semmit sem jelenít meg."
+
+#: includes/class-settings.php:38
+msgid "Data & Uninstall"
+msgstr "Adatok és eltávolítás"
+
+#: includes/class-settings.php:45
+msgid "Delete data on uninstall"
+msgstr "Adatok törlése eltávolításkor"
+
+#: includes/class-settings.php:67
+msgid "Ethical Triggers"
+msgstr "Etikus jelzések"
+
+#: includes/class-settings.php:81
+msgid ""
+"Delete plugin options and cached order-count transients when the plugin is "
+"uninstalled."
+msgstr ""
+"A bővítmény eltávolításakor törölje a beállításokat és a gyorsítótárazott "
+"rendelésszámlálókat."
+
+#: includes/class-settings.php:84
+msgid ""
+"Disabled by default so reinstalling or updating manually keeps existing "
+"settings."
+msgstr ""
+"Alapértelmezés szerint kikapcsolva, így az újratelepítés vagy a kézi "
+"frissítés megőrzi a meglévő beállításokat."
+
+#: wm-ethical-conversion-triggers.php:59
+msgid "WM Ethical Conversion Triggers benötigt PHP 8.0 oder neuer."
+msgstr "A WM Ethical Conversion Triggers PHP 8.0 vagy újabb verziót igényel."
+

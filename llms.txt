@@ -1,0 +1,23 @@
+# WM Ethical Conversion Triggers
+
+> WooCommerce plugin for product-page order and low-stock notices derived strictly from real paid HPOS orders and WooCommerce-managed inventory.
+
+## Facts
+
+- Version 1.2.0. Requires WordPress 6.0+, PHP 8.0+, and WooCommerce (declares HPOS `custom_order_tables` compatibility).
+- Queries distinct paid orders (`wc_get_is_paid_statuses()`, `stats.parent_id = 0`) from `{prefix}wc_order_product_lookup` + `{prefix}wc_order_stats` via `$wpdb->prepare()`, cached per product in 1-hour transients (`wm_ect_sales_<id>`).
+- `Stock_Verifier::get_verified_stock()` returns `null` when `get_manage_stock()` is false; `Frontend::render_ethical_trigger()` emits nothing (not even the `aria-live="polite"` container) unless a verified notice is rendered.
+- REST webhook `POST /wp-json/wm-ect/v1/stock-update` verifies base64 HMAC-SHA256 `x-wc-webhook-signature` with `hash_equals()`, using `WM_ECT_WEBHOOK_SECRET` or `wm_ect_webhook_secret`.
+- Integrations: WP 6.5+ Block Bindings source `wm-ethical-triggers/metrics`, GenerateBlocks 2.x Dynamic Tag `{{wm_ethical_trigger}}`, WM Suite Hub module `Spoke_Adapter` (implements `WM_Plugin_Module_Interface`) via the `wm_register_suite_module` filter — health `ERROR` without WooCommerce, `DEGRADED` without the analytics tables, `self_test` action — developer hooks `wm_ethical_triggers_config`, `wm_ethical_triggers_ready`, `wm_ethical_triggers_stock_updated`.
+- Opt-in uninstall (`wm_ethical_triggers_delete_data_on_uninstall`, default `'0'`) via **Settings > Ethical Triggers** (`options-general.php?page=wm-ethical-conversion-triggers`).
+- Zero-CDN local CSS/JS assets (`:root` `--wm-ect-*` tokens) and 28 compiled `.po`/`.mo` locale packs in `languages/`.
+
+## Official Links
+
+- Plugin Page: https://arnoldwender.com/wordpress-plugins/wm-ethical-conversion-triggers/
+
+## License
+
+GPLv2 or later (`GPL-2.0-or-later`).
+- GitHub Repository: https://github.com/arnoldwender/wm-wp-ethical-conversion-triggers
+- Support & Liability: Zero support — reproducible bugs on https://github.com/arnoldwender/wm-wp-ethical-conversion-triggers/issues only · no private support · AS IS / no liability (SUPPORT.md)

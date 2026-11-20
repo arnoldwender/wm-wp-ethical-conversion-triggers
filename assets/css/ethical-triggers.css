@@ -1,0 +1,73 @@
+/**
+ * WM Ethical Conversion Triggers: notice on the product page.
+ */
+:root {
+    --wm-ect-bg: #f8f9fa;
+    --wm-ect-border-accent: #0056b3;
+    --wm-ect-color-text: #212529;
+    --wm-ect-color-alert: #b32d00;
+    --wm-ect-space-xs: 4px;
+    --wm-ect-space-sm: 8px;
+    --wm-ect-space-md: 12px;
+    --wm-ect-space-lg: 16px;
+    --wm-ect-space-xl: 20px;
+    --wm-ect-icon-size: 24px;
+    --wm-ect-radius: 4px;
+    --wm-ect-border-width: 4px;
+    --wm-ect-font-size: 0.875rem;
+    --wm-ect-line-height: 1.5;
+    --wm-ect-font-weight-strong: 600;
+}
+
+.wm-ect-container {
+    margin-bottom: var(--wm-ect-space-xl);
+    padding: var(--wm-ect-space-md) var(--wm-ect-space-lg);
+    background-color: var(--wm-ect-bg);
+    border-left: var(--wm-ect-border-width) solid var(--wm-ect-border-accent);
+    border-radius: var(--wm-ect-radius);
+    color: var(--wm-ect-color-text);
+    font-size: var(--wm-ect-font-size);
+    line-height: var(--wm-ect-line-height);
+}
+
+.wm-ect-container p {
+    margin: 0 0 var(--wm-ect-space-sm) 0;
+    display: flex;
+    align-items: center;
+}
+
+.wm-ect-container p:last-child {
+    margin-bottom: 0;
+}
+
+/*
+ * Iconos decorativos (aria-hidden), 24 x 24 px. No son elementos interactivos.
+ */
+.wm-ect-icon {
+    display: inline-block;
+    min-width: var(--wm-ect-icon-size);
+    min-height: var(--wm-ect-icon-size);
+    margin-right: var(--wm-ect-space-sm);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.wm-ect-icon-verified {
+    /* Icono SVG decorativo de verificación */
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%230056b3'%3E%3Cpath d='M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z'/%3E%3C/svg%3E");
+}
+
+.wm-ect-icon-alert {
+    /* Icono SVG decorativo de alerta */
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23b32d00'%3E%3Cpath d='M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z'/%3E%3C/svg%3E");
+}
+
+/*
+ * Contraste medido el 2026-09-15: --wm-ect-color-alert sobre --wm-ect-bg 6.05:1,
+ * --wm-ect-color-text sobre --wm-ect-bg 14.63:1.
+ */
+.wm-ect-low-stock {
+    color: var(--wm-ect-color-alert);
+    font-weight: var(--wm-ect-font-weight-strong);
+}

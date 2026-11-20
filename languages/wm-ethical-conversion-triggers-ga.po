@@ -1,0 +1,139 @@
+# Translation of wm-ethical-conversion-triggers in ga
+# Copyright (C) 2026 Arnold Wender
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: wm-ethical-conversion-triggers 1.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wm-ethical-"
+"conversion-triggers\n"
+"POT-Creation-Date: 2026-11-19T12:13:16+00:00\n"
+"PO-Revision-Date: 2026-11-16 23:30+0100\n"
+"Last-Translator: WM Suite <https://github.com/arnoldwender/wm-wp-ethical-conversion-triggers/issues>\n"
+"Language-Team: WM Suite <https://github.com/arnoldwender/wm-wp-ethical-conversion-triggers/issues>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=(n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
+"4);\n"
+"X-Generator: WM Suite i18n Compiler 2026\n"
+"X-Domain: wm-ethical-conversion-triggers\n"
+
+#. Plugin Name of the plugin
+#: wm-ethical-conversion-triggers.php includes/class-integrations.php:77
+#: includes/class-settings.php:66 includes/class-settings.php:94
+msgid "WM Ethical Conversion Triggers"
+msgstr "Spreagthaí Comhshó Eiticiúla WM"
+
+#. Plugin URI of the plugin
+#: wm-ethical-conversion-triggers.php
+msgid ""
+"https://arnoldwender.com/wordpress-plugins/wm-ethical-conversion-triggers/"
+msgstr ""
+
+#. Description of the plugin
+#: wm-ethical-conversion-triggers.php
+msgid ""
+"Order and low-stock notices on WooCommerce product pages, shown only from "
+"real paid orders and managed stock."
+msgstr ""
+"Fógraí ordaithe agus stoic íseal ar leathanaigh táirgí WooCommerce, nach "
+"dtaispeántar ach ó orduithe íoctha fíora agus ó stoc bainistithe."
+
+#. Author of the plugin
+#: wm-ethical-conversion-triggers.php
+msgid "Arnold Wender"
+msgstr "Arnold Wender"
+
+#. Author URI of the plugin
+#: wm-ethical-conversion-triggers.php
+msgid "https://www.arnoldwender.com"
+msgstr "https://www.arnoldwender.com"
+
+#. translators: %d: paid orders containing this product in the last 7 days
+#: includes/class-frontend.php:101
+#, php-format
+msgid "%d Bestellung dieses Artikels in den letzten 7 Tagen."
+msgid_plural "%d Bestellungen dieses Artikels in den letzten 7 Tagen."
+msgstr[0] "%d ordú ar an mír seo le 7 lá anuas."
+msgstr[1] "%d orduithe ar an mír seo le 7 lá anuas."
+msgstr[2] "%d orduithe ar an mír seo le 7 lá anuas."
+msgstr[3] "%d orduithe ar an mír seo le 7 lá anuas."
+msgstr[4] "%d orduithe ar an mír seo le 7 lá anuas."
+
+#. translators: %d: units left in WooCommerce-managed stock (1 to 5)
+#: includes/class-frontend.php:108
+#, php-format
+msgid "Nur noch %d Stück auf Lager."
+msgid_plural "Nur noch %d Stück auf Lager."
+msgstr[0] "Níl fágtha i stoc ach: %d."
+msgstr[1] "Níl fágtha i stoc ach: %d."
+msgstr[2] "Níl fágtha i stoc ach: %d."
+msgstr[3] "Níl fágtha i stoc ach: %d."
+msgstr[4] "Níl fágtha i stoc ach: %d."
+
+#: includes/class-integrations.php:122
+msgid "Ethical Conversion Trigger"
+msgstr "Spreagadh comhshó eiticiúil"
+
+#: includes/class-integrations.php:126
+msgid "Verified 7-day paid orders and managed low-stock notice."
+msgstr "Fógra fíoraithe d’orduithe íoctha 7 lá agus stoc íseal bainistithe."
+
+#: includes/class-integrations.php:130
+msgid "Notice field"
+msgstr "Réimse fógra"
+
+#: includes/class-integrations.php:135
+msgid "Combined verified notices"
+msgstr "Fógraí fíoraithe comhcheangailte"
+
+#: includes/class-integrations.php:139
+msgid "Verified 7-day orders only"
+msgstr "Orduithe fíoraithe 7 lá amháin"
+
+#: includes/class-integrations.php:143
+msgid "Verified low stock only"
+msgstr "Stoc íseal fíoraithe amháin"
+
+#: includes/class-plugin.php:77
+msgid ""
+"WM Ethical Conversion Triggers benötigt WooCommerce. Ohne WooCommerce zeigt "
+"das Plugin nichts an."
+msgstr ""
+"Teastaíonn WooCommerce ó WM Ethical Conversion Triggers. Gan WooCommerce ní "
+"thaispeánann an breiseán aon ní."
+
+#: includes/class-settings.php:38
+msgid "Data & Uninstall"
+msgstr "Sonraí agus díshuiteáil"
+
+#: includes/class-settings.php:45
+msgid "Delete data on uninstall"
+msgstr "Scrios sonraí ar dhíshuiteáil"
+
+#: includes/class-settings.php:67
+msgid "Ethical Triggers"
+msgstr "Spreagthaí eiticiúla"
+
+#: includes/class-settings.php:81
+msgid ""
+"Delete plugin options and cached order-count transients when the plugin is "
+"uninstalled."
+msgstr ""
+"Scrios roghanna an bhreiseáin agus taisce shealadach líon na n-orduithe "
+"nuair a dhíshuiteáiltear an breiseán."
+
+#: includes/class-settings.php:84
+msgid ""
+"Disabled by default so reinstalling or updating manually keeps existing "
+"settings."
+msgstr ""
+"Díchumasaithe de réir réamhshocraithe ionas go gcoimeádfaidh athshuiteáil nó "
+"nuashonrú láimhe na socruithe atá ann."
+
+#: wm-ethical-conversion-triggers.php:59
+msgid "WM Ethical Conversion Triggers benötigt PHP 8.0 oder neuer."
+msgstr ""
+"Teastaíonn PHP 8.0 nó leagan níos nuaí ó WM Ethical Conversion Triggers."
+
