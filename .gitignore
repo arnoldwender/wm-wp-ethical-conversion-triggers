@@ -1,0 +1,16 @@
+# La regla global `/Assets/` del workspace casa con el assets/ raíz de este plugin en un sistema
+# de ficheros que no distingue mayúsculas y dejó el CSS y el JS del frontend fuera del repo
+# (medido 2026-09-14: `git ls-files assets` vacío con class-frontend.php encolando los dos).
+# Misma negación que wm-suite-hub.
+!assets/
+!assets/**
+
+# Artefactos de herramientas
+.DS_Store
+node_modules/
+vendor/
+.phpunit.cache/
+
+# NO pertenece a este plugin: es un script de otro proyecto que aterrizó aquí
+# por accidente. Ignorado para que un `git add -A` nunca lo publique.
+update_deep_search.py

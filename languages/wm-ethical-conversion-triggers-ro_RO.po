@@ -1,0 +1,142 @@
+# Translation of wm-ethical-conversion-triggers in ro_RO
+# Copyright (C) 2026 Arnold Wender
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: wm-ethical-conversion-triggers 1.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wm-ethical-"
+"conversion-triggers\n"
+"POT-Creation-Date: 2026-11-25T00:05:42+00:00\n"
+"PO-Revision-Date: 2026-11-21 18:10+0100\n"
+"Last-Translator: WM Suite <https://github.com/arnoldwender/wm-wp-ethical-"
+"conversion-triggers/issues>\n"
+"Language-Team: WM Suite <https://github.com/arnoldwender/wm-wp-ethical-"
+"conversion-triggers/issues>\n"
+"Language: ro_RO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100>0 && "
+"n%100<20)) ? 1 : 2);\n"
+"X-Generator: WM Suite i18n Compiler 2026\n"
+"X-Domain: wm-ethical-conversion-triggers\n"
+
+#. Plugin Name of the plugin
+#: wm-ethical-conversion-triggers.php includes/class-integrations.php:60
+#: includes/class-settings.php:66 includes/class-settings.php:94
+msgid "WM Ethical Conversion Triggers"
+msgstr "WM Declanșatoare Etice de Conversie"
+
+#. Plugin URI of the plugin
+#: wm-ethical-conversion-triggers.php
+msgid ""
+"https://arnoldwender.com/wordpress-plugins/wm-ethical-conversion-triggers/"
+msgstr ""
+
+#. Description of the plugin
+#: wm-ethical-conversion-triggers.php
+msgid ""
+"Order and low-stock notices on WooCommerce product pages, shown only from "
+"real paid orders and managed stock."
+msgstr ""
+"Notificări privind comenzile recente și stocul redus pe paginile de produs "
+"WooCommerce, afișate numai pe baza comenzilor plătite reale și a stocului "
+"gestionat."
+
+#. Author of the plugin
+#: wm-ethical-conversion-triggers.php
+msgid "Arnold Wender"
+msgstr "Arnold Wender"
+
+#. Author URI of the plugin
+#: wm-ethical-conversion-triggers.php
+msgid "https://arnoldwender.com"
+msgstr ""
+
+#. translators: %d: paid orders containing this product in the last 7 days
+#: includes/class-frontend.php:101
+#, php-format
+msgid "%d Bestellung dieses Artikels in den letzten 7 Tagen."
+msgid_plural "%d Bestellungen dieses Artikels in den letzten 7 Tagen."
+msgstr[0] "%d comandă pentru acest articol în ultimele 7 zile."
+msgstr[1] "%d comenzi pentru acest articol în ultimele 7 zile."
+msgstr[2] "%d de comenzi pentru acest articol în ultimele 7 zile."
+
+#. translators: %d: units left in WooCommerce-managed stock (1 to 5)
+#: includes/class-frontend.php:108
+#, php-format
+msgid "Nur noch %d Stück auf Lager."
+msgid_plural "Nur noch %d Stück auf Lager."
+msgstr[0] "În stoc mai sunt doar: %d buc."
+msgstr[1] "În stoc mai sunt doar: %d buc."
+msgstr[2] "În stoc mai sunt doar: %d buc."
+
+#: includes/class-integrations.php:105
+msgid "Ethical Conversion Trigger"
+msgstr "Declanșator etic de conversie"
+
+#: includes/class-integrations.php:109
+msgid "Verified 7-day paid orders and managed low-stock notice."
+msgstr ""
+"Notificare verificată privind comenzile plătite din ultimele 7 zile și "
+"stocul redus gestionat."
+
+#: includes/class-integrations.php:113
+msgid "Notice field"
+msgstr "Câmp notificare"
+
+#: includes/class-integrations.php:118
+msgid "Combined verified notices"
+msgstr "Notificări verificate combinate"
+
+#: includes/class-integrations.php:122
+msgid "Verified 7-day orders only"
+msgstr "Numai comenzile verificate din ultimele 7 zile"
+
+#: includes/class-integrations.php:126
+msgid "Verified low stock only"
+msgstr "Numai stocul redus verificat"
+
+#: includes/class-plugin.php:82
+msgid ""
+"WM Ethical Conversion Triggers benötigt WooCommerce. Ohne WooCommerce zeigt "
+"das Plugin nichts an."
+msgstr ""
+"WM Ethical Conversion Triggers necesită WooCommerce. Fără WooCommerce, "
+"modulul nu afișează nimic."
+
+#: includes/class-settings.php:38
+msgid "Data & Uninstall"
+msgstr "Date și dezinstalare"
+
+#: includes/class-settings.php:45
+msgid "Delete data on uninstall"
+msgstr "Șterge datele la dezinstalare"
+
+#: includes/class-settings.php:67
+msgid "Ethical Triggers"
+msgstr "Declanșatoare etice"
+
+#: includes/class-settings.php:81
+msgid ""
+"Delete plugin options and cached order-count transients when the plugin is "
+"uninstalled."
+msgstr ""
+"Șterge opțiunile modulului și datele temporare din cache privind numărul de "
+"comenzi la dezinstalare."
+
+#: includes/class-settings.php:84
+msgid ""
+"Disabled by default so reinstalling or updating manually keeps existing "
+"settings."
+msgstr ""
+"Dezactivat implicit pentru ca reinstalarea sau actualizarea manuală să "
+"păstreze setările existente."
+
+#: wm-ethical-conversion-triggers.php:53
+msgid "WM Ethical Conversion Triggers benötigt PHP 8.0 oder neuer."
+msgstr ""
+"WM Ethical Conversion Triggers necesită PHP 8.0 sau o versiune ulterioară."
+
+#~ msgid "https://www.arnoldwender.com"
+#~ msgstr "https://www.arnoldwender.com"
